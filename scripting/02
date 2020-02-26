@@ -1,0 +1,4 @@
+#!/bin/bash
+U=$1
+pgrep -u $U | while read ID; do sudo kill $ID; done
+sudo userdel $U

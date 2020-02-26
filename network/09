@@ -1,0 +1,1 @@
+#dig @resolver1.opendns.com 42.fr +short
